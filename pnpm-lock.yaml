@@ -5,8 +5,10 @@ specifiers:
   '@types/react': 18.2.6
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14
+  clsx: ^1.2.1
   eslint: 8.40.0
   eslint-config-next: 13.4.2
+  eventsource-parser: ^1.0.0
   next: 13.4.2
   postcss: 8.4.23
   react: 18.2.0
@@ -19,8 +21,10 @@ dependencies:
   '@types/react': 18.2.6
   '@types/react-dom': 18.2.4
   autoprefixer: 10.4.14_postcss@8.4.23
+  clsx: 1.2.1
   eslint: 8.40.0
   eslint-config-next: 13.4.2_3qfatcekpgbllh6uk5ivyhkbxq
+  eventsource-parser: 1.0.0
   next: 13.4.2_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.23
   react: 18.2.0
@@ -617,6 +621,11 @@ packages:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
 
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
+
   /color-convert/2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
@@ -1147,6 +1156,11 @@ packages:
   /esutils/2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /eventsource-parser/1.0.0:
+    resolution: {integrity: sha512-9jgfSCa3dmEme2ES3mPByGXfgZ87VbP97tng1G2nWwWx6bV2nYxm2AWCrbQjXToSe+yYlqaZNtxffR9IeQr95g==}
+    engines: {node: '>=14.18'}
     dev: false
 
   /execa/5.1.1:
