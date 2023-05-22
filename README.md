@@ -1,4 +1,4 @@
-# ChatGPT music album recommendation
+# ChatGPT Music Recommendation
 
 ## What's this
 
